@@ -4,6 +4,14 @@ import Interface.ImovieTheator;
 import Model.Movie;
 import Service.MovieTheatorIMPL;
 
+/*Write a Java program to createa class called "Movie Theator" with instance variables "movies"(list of Movie objects) and
+ "numMovies"(the number of movies in the list). Include the following methods:
+ A method to add a movie to the list,
+ A method to remove a movie from the list,
+ A method to search a movie by its title,
+ A method to sort the movies in the list by their rating(ascending or descending order),
+ A method to calculate the average rating of all movies in the theator
+*/
 public class MovieManagement {
     public static void main(String[] args) {
         ImovieTheator theator = new MovieTheatorIMPL();
